@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>기기 사용 기록</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h2>기기 사용 기록</h2>
+  <input type="date" id="date">
+  <input type="number" id="usageCount" placeholder="사용 횟수">
+  <input type="number" id="usageTime" placeholder="총 사용 시간(분)">
+  <button onclick="addRecord()">기록 저장</button>
+
+  <canvas id="usageChart"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
